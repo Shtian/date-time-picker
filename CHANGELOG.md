@@ -1,6 +1,14 @@
 # Changelog
 
 
+## [11.0.0] - 2019-09-01
+- Remove momentjs dependency and adapters
+- Update to Angular 11
+
+### Changed
+- Converted the `@angular/cli` library workspace format.
+- Added the `.scss` style to the bundle, it can be imported with `@import '~@busacca/ng-pick-datetime/assets/style/picker.scss';`
+
 ## [8.1.0] - 2019-09-01
 ### Changed
 - Converted the `@angular/cli` library workspace format.

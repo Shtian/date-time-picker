@@ -1,15 +1,16 @@
 Angular Date Time Picker
 ========================
 
-[![npm](https://img.shields.io/npm/v/ng-pick-datetime.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/@busacca/ng-pick-datetime)
-[![npm](https://img.shields.io/npm/dm/ng-pick-datetime.svg)](https://www.npmjs.com/package/@busacca/ng-pick-datetime)
+**This is a fork from dbusacca's fork, added Angular 11 support and removed all moment dependencies**
 
 **Angular date time picker - Angular reusable UI component**
-**This package supports Angular 9+**
+
+**This package supports Angular 11+**
 
 
 Breaking Changes
 -------
+ - Since 11.0.0 the picker has been updated for Angular 11+ apps
  - Since 9.0.0 the picker has been updated for Angular 9+ apps
  - Since 8.0.0 the picker has been updated for Angular 8+ apps.
  - Since 7.0.0 the picker has been updated for Angular 7+ apps.
@@ -97,7 +98,6 @@ Developers need to make sure to provide the appropriate pieces for the picker to
 There are two pre-made modules, users need to import one of them or build your own one (learn more about this from [here](https://danielykpan.github.io/date-time-picker/#locale-formats)).
 
 - `OwlNativeDateTimeModule` - support for native JavaScript Date object
-- `OwlMomentDateTimeModule` - support for MomentJs
 
 Properties for `owl-date-time`
 -------
